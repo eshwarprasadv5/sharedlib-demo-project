@@ -1,8 +1,6 @@
 def call(){
 pipeline{
-  agent{
-    label 'maven2'
-  }
+  agent any
   stages{
    stage('Checkout'){
      steps{
