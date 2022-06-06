@@ -5,6 +5,7 @@ pipeline{
    stage('Checkout'){
      steps{
      git 'https://github.com/eshwarprasadv5/sharedlib-demo-project.git'
+       sh "echo Hello"
      }
     
    }
